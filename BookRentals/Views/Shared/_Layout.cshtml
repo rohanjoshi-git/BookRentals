@@ -1,4 +1,4 @@
-﻿@model BookRentals.ViewModels.RandomBookViewModel
+﻿@*@model BookRentals.ViewModels.RandomBookViewModel*@ @*will give error if object other than RandomBookViewModel is passed*@
 <!DOCTYPE html>
 <html>
 <head>
@@ -40,7 +40,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - BookRentals</p>
         </footer>
     </div>
 
